@@ -1,7 +1,15 @@
 #import "SEGFirebaseIntegration.h"
+#if SWIFT_PACKAGE
+#import "Analytics.h"
+#import "Firebase.h"
+#else
 #import <Analytics/SEGAnalyticsUtils.h>
 #import <Firebase/Firebase.h>
+#endif
 
+#if SWIFT_PACKAGE
+void SEGLog(NSString *format, ...);
+#endif
 
 @implementation SEGFirebaseIntegration
 
