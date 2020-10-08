@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/mark-shape/analytics-ios.git", .branch("master")),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .branch("6.33-spm-beta"))
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .branch("6.34-spm-beta"))
     ],
     targets: [
          .target(
